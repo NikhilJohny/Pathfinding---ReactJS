@@ -1,0 +1,91 @@
+.Header {
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    min-height: 100px;
+}
+
+.canvas {
+    margin-top: 200px;
+    min-width: 1500px;
+    max-width: 1530px;
+    border: 1px solid rgba(0, 0, 66, 0.75)
+}
+
+.Node {
+    margin-bottom: -4px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.node-wall {
+    animation-name: visitedAnimation;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes visitedAnimation {
+    0% {
+        transform: scale(0.3);
+        background-color: rgba(0, 0, 66, 0.75);
+        border-radius: 100%;
+    }
+    50% {
+        background-color: rgba(0, 0, 66, 0.75);
+    }
+    75% {
+        transform: scale(1.2);
+        background-color: rgba(0, 0, 66, 0.75);
+    }
+    100% {
+        transform: scale(1);
+        background-color: rgba(0, 0, 66, 0.75);
+        border-color: transparent;
+    }
+}
+
+.node-start {
+    background-color: red;
+}
+
+.node-end {
+    background-color: blue;
+}
+
+.node-visited {
+    animation-name: visitedAnimation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes visitedAnimation1 {
+    0% {
+        transform: scale(0.3);
+        background-color: blueviolet;
+        border-radius: 100%;
+    }
+    50% {
+        background-color: blueviolet;
+    }
+    75% {
+        transform: scale(1.2);
+        background-color: greenyellow;
+    }
+    100% {
+        transform: scale(1);
+        background-color: greenyellow;
+        border-color: transparent;
+    }
+}
