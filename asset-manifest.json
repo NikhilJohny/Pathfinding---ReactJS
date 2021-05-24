@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Pathfinding---ReactJS/static/css/main.d960b3e3.chunk.css",
+    "main.js": "/Pathfinding---ReactJS/static/js/main.249aafab.chunk.js",
+    "main.js.map": "/Pathfinding---ReactJS/static/js/main.249aafab.chunk.js.map",
+    "runtime-main.js": "/Pathfinding---ReactJS/static/js/runtime-main.c696c61f.js",
+    "runtime-main.js.map": "/Pathfinding---ReactJS/static/js/runtime-main.c696c61f.js.map",
+    "static/js/2.c68b8148.chunk.js": "/Pathfinding---ReactJS/static/js/2.c68b8148.chunk.js",
+    "static/js/2.c68b8148.chunk.js.map": "/Pathfinding---ReactJS/static/js/2.c68b8148.chunk.js.map",
+    "index.html": "/Pathfinding---ReactJS/index.html",
+    "static/css/main.d960b3e3.chunk.css.map": "/Pathfinding---ReactJS/static/css/main.d960b3e3.chunk.css.map",
+    "static/js/2.c68b8148.chunk.js.LICENSE.txt": "/Pathfinding---ReactJS/static/js/2.c68b8148.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c696c61f.js",
+    "static/js/2.c68b8148.chunk.js",
+    "static/css/main.d960b3e3.chunk.css",
+    "static/js/main.249aafab.chunk.js"
+  ]
+}
