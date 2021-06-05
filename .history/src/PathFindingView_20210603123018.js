@@ -360,7 +360,7 @@ const createNode = (i, j, counter) => {
 
 function getRows(width,height){
   boardHeight = Math.floor(height / 30)
-  boardWidth = Math.floor(width / 25)
+  boardWidth = Math.floor(width / 30)
 }
 
 
